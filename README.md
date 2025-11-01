@@ -230,11 +230,6 @@ Once running, log in to Grafana, add Prometheus as a data source (if not already
 - Empty answers: verify API keys and that your `data/` content matches what `DataIngestor` expects.
 - Prometheus not scraping: check Service name/ports and scrape config in the ConfigMap.
 
-
-## License
-Add your preferred license here (e.g., MIT) if applicable.
-
-
 ## Acknowledgements
 - LangChain, ChromaDB
 - Prometheus, Grafana
