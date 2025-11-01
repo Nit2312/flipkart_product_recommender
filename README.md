@@ -54,7 +54,7 @@ Grafana Monitoring Dashboard
 - Python 3.10
 - Flask 3.x
 - LangChain (core, community, groq, huggingface, astrapdb)
-- ChromaDB
+- AstraDB
 - Prometheus client for Python
 - Docker
 - Kubernetes (Minikube local recommended)
@@ -231,6 +231,6 @@ Once running, log in to Grafana, add Prometheus as a data source (if not already
 - Prometheus not scraping: check Service name/ports and scrape config in the ConfigMap.
 
 ## Acknowledgements
-- LangChain, ChromaDB
+- LangChain, AstraDB
 - Prometheus, Grafana
 - Kubernetes, Minikube
